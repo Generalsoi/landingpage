@@ -1,0 +1,326 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 4.5rem;
+}
+
+/*navbar*/
+
+header{
+    background-color: #132743;
+    margin: 0;
+}
+header ul{
+    margin: 0;
+}
+
+header li{
+    display: inline-block;
+    margin: 2rem;
+    color: white;
+}
+
+.brandname{
+    margin-right: 20rem;
+    font-size: 30px;
+    color: #ff414d;
+}
+.login{
+    margin-left: 20rem;
+    margin-right: 0;
+}
+.account{
+    color: #ff414d;
+}
+
+/*intro*/
+
+#intro{
+    background-color: #70adb5;
+    padding: 5% 10%;
+    color: white;
+    display: flex;
+}
+#intro img{
+    width: 100%;
+}
+
+.red{
+    color: #cd0a0a;
+    animation-name: red-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes red-animation{
+    0%{
+        color: #cd0a0a;
+    }
+    50%{
+        color: #d64747;
+    }
+    100%{
+        color: #641313;
+    }
+}
+
+
+#intro button{
+    text-align: center;
+    padding: 30px;
+    border-radius: 40%;
+    
+}
+.red-button{
+    background-color: #cd0a0a;
+}
+
+.red-button:hover{
+    background-color: #752626;
+}
+
+.blue-button{
+    background-color: #132743;
+}
+
+.blue-button:hover{
+    background-color: #296cc9;
+}
+
+#intro a{
+    color: white;
+    font-size: 1rem;
+    target: _blank;
+    text-decoration: none;
+}
+
+/*section two*/
+
+#section-two{
+    display: flex;
+    padding: 5% 10%;
+}
+
+#section-two h1{
+    color: #132743;
+}
+#section-two img{
+    width: 100%;
+}
+.unlimited{
+    padding-right: 90px;
+}
+
+
+
+/*section three*/
+
+#section-three{
+    background-color: #70adb5;
+    padding: 5% 10%;
+    color: white;
+}
+
+.card-{
+    display: flex;
+    flex-direction: row;
+}
+
+.cardContent{
+    margin: 0 20px;
+}
+
+.procedure{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*section four*/
+
+#section-four{
+    display: flex;
+    padding: 5% 10%;
+}
+#section-four h1, #section-four p{
+    color: #132743;
+}
+#section-four button{
+    text-align: center;
+    padding: 20px;
+    border-radius: 40%;
+    color: white;
+    background-color: #132743;
+}
+#section-four button:hover{
+    background-color: #296cc9;
+}
+
+.subscription{
+    padding-right: 30px;
+}
+.subscription h1{
+    font-size: 3rem;
+}
+.benefits{
+    padding: 50px;
+    border: 1px solid white;
+    border-radius: 10%;
+    background-color: #70adb5;
+    width: 500px;
+}
+
+.benefits li{
+    list-style: circle;
+    font-size: 25px;
+    color: white;
+}
+
+
+/*section five*/
+
+#section-five{
+    background-color: #70adb5;
+    padding: 5% 10%;
+}
+
+#section-five h1, #section-five h3{
+    color: white;
+}
+
+.section-five-card{
+    padding: 2% 10%;
+}
+
+.sec-5-card-content{
+    padding-right: 120px;
+    text-align: center;
+}
+
+
+/*footer*/
+
+footer{
+    background-color: #132743;
+    color: white;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer li{
+    display: inline-block;
+    padding-right: 30px;
+}
+
+footer a{
+    color: white;
+}
+
+
+
+/*Responsiveness*/
+@media (max-width: 450px){
+    h1{
+        font-size: 3.5rem;
+    }
+
+    /*navbar*/
+    header li{
+        margin: 0;
+        color: white;
+        margin: 10px;
+    }
+    
+    .brandname{
+        margin-right: 20rem;
+        font-size: 30px;
+        color: #ff414d;
+    }
+    .login{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+
+    /*intro*/
+
+    #intro{
+        padding: 15% 7%;
+        text-align: center;
+    }
+    #intro h1{
+        padding: 10px 5px;
+    }
+    #intro img{
+        display: none;
+    }
+    #intro button{
+        text-align: center;
+        padding: 10px;
+        border-radius: 40%;
+        
+    }
+
+    /*section-two*/
+
+    #section-two{
+        padding: 7% 7%;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    /*section-three*/
+
+    #section-three{
+        padding: 7% 7%;
+        text-align: center;
+    }
+    .card-{
+        flex-wrap: wrap;
+    }
+
+    /*section-four*/
+
+    #section-four{
+        padding: 7% 7%;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    #section-four button{
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    .subscription{
+        padding-right: 0;
+    }
+    .benefits{
+        padding: 50px 20px;
+        width: 500px;
+    }
+    .benefits li{
+        font-size: 25px;
+        text-align: left;
+    }
+
+    /*section-five*/
+
+    #section-five{
+        padding: 7% 7%;
+        text-align: center;
+    }
+    .section-five-card{
+        padding: 0;
+        padding-left: 60px;
+    }
+    .sec-5-card-content{
+        
+        padding-bottom: 20px;
+    }
+}
