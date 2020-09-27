@@ -13,6 +13,7 @@ h1{
 header{
     background-color: #132743;
     margin: 0;
+    padding: 0 6%;
 }
 header ul{
     margin: 0;
@@ -27,10 +28,11 @@ header li{
 .brandname{
     margin-right: 20rem;
     font-size: 30px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1.5rem;
     color: #ff414d;
 }
 .login{
-    margin-left: 20rem;
     margin-right: 0;
 }
 .account{
@@ -45,8 +47,27 @@ header li{
     color: white;
     display: flex;
 }
+#intro h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 4rem;
+}
 #intro img{
     width: 100%;
+    height: 100%;
+    animation-name: image-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes image-animation{
+    50%{
+        transform: scale(1.1);
+        opacity: 200%;
+        border-radius: 40%;
+    }
+    100%{
+        opacity: 80%;
+        transform: scale(0.9);
+    }
 }
 
 .red{
@@ -70,9 +91,9 @@ header li{
 
 #intro button{
     text-align: center;
-    padding: 30px;
-    border-radius: 40%;
-    
+    padding: 20px;
+    border-radius: 10%;
+    border-bottom: black;
 }
 .red-button{
     background-color: #cd0a0a;
