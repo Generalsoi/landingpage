@@ -5,7 +5,10 @@ body{
 }
 
 h1{
-    font-size: 4.5rem;
+    font-size: 4rem;
+}
+h2{
+    font-size: 3rem;
 }
 
 /*navbar*/
@@ -49,7 +52,6 @@ header li{
 }
 #intro h1{
     font-family: 'Prompt', sans-serif;
-    font-size: 4rem;
 }
 #intro img{
     width: 100%;
@@ -123,7 +125,7 @@ header li{
 
 #section-two{
     display: flex;
-    padding: 5% 10%;
+    padding: 2% 10%;
 }
 
 #section-two h1{
@@ -142,7 +144,7 @@ header li{
 
 #section-three{
     background-color: #70adb5;
-    padding: 5% 10%;
+    padding: 2% 10%;
     color: white;
 }
 
@@ -164,15 +166,18 @@ header li{
 
 #section-four{
     display: flex;
-    padding: 5% 10%;
+    padding: 3% 11%;
+    background-image: url('images/unnamed.png');
+    background-repeat: no-repeat;
 }
-#section-four h1, #section-four p{
+
+#section-four h2, #section-four p{
     color: #132743;
 }
 #section-four button{
     text-align: center;
-    padding: 20px;
-    border-radius: 40%;
+    padding: 10px;
+    border-radius: 10%;
     color: white;
     background-color: #132743;
 }
@@ -183,19 +188,17 @@ header li{
 .subscription{
     padding-right: 30px;
 }
-.subscription h1{
-    font-size: 3rem;
-}
+
 .benefits{
-    padding: 50px;
+    padding: 5px;
     border: 1px solid white;
     border-radius: 10%;
-    background-color: #70adb5;
+    background: linear-gradient(180deg, #70adb5, #1aa6b7);
     width: 500px;
 }
 
 .benefits li{
-    list-style: circle;
+    list-style: none;
     font-size: 25px;
     color: white;
 }
@@ -205,15 +208,11 @@ header li{
 
 #section-five{
     background-color: #70adb5;
-    padding: 5% 10%;
+    padding: 1% 10% 3%;
 }
 
-#section-five h1, #section-five h3{
+#section-five h2, #section-five h3{
     color: white;
-}
-
-.section-five-card{
-    padding: 2% 10%;
 }
 
 .sec-5-card-content{
@@ -227,20 +226,27 @@ header li{
 footer{
     background-color: #132743;
     color: white;
-    padding: 5% 10%;
+    padding: 1% 7%;
     text-align: center;
+    display: flex;
 }
 
 footer p{
     margin: 0;
+    font-size: 0.8rem;
+    padding-right: 52rem;
 }
-
+footer ul{
+    margin: 0;
+}
 footer li{
+    margin: 0;
     display: inline-block;
-    padding-right: 30px;
+    padding-right: 10px;
 }
 
 footer a{
+    margin: 0;
     color: white;
 }
 
