@@ -192,7 +192,7 @@ header li{
 .benefits{
     padding: 5px;
     border: 1px solid white;
-    border-radius: 10%;
+    border-radius: 5%;
     background: linear-gradient(180deg, #70adb5, #1aa6b7);
     width: 500px;
 }
