@@ -266,7 +266,7 @@ footer a{
     header li{
         margin: 0;
         color: white;
-        margin: 10px;
+        margin: 3px;
     }
     
     .brandname{
@@ -324,6 +324,7 @@ footer a{
         padding: 7% 7%;
         text-align: center;
         flex-wrap: wrap;
+        background-size: 10rem;
     }
     #section-four button{
         padding: 20px;
@@ -354,5 +355,15 @@ footer a{
     .sec-5-card-content{
         
         padding-bottom: 20px;
+    }
+
+    /*footer*/
+    footer{
+        flex-wrap: wrap;
+    }
+    footer p{
+        margin: 0;
+        font-size: 0.7rem;
+        padding-right: 1rem;
     }
 }
